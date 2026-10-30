@@ -1,15 +1,15 @@
-let botonrojo = document.getElementById("rojo")
-let botonazul = document.getElementById("azul")
-let botonverde = document.getElementById("verde")
+let botonverde = document.getElementById("Verde")
+let botonmora = document.getElementById("Mora")
+let botonazul = document.getElementById("Azul")
 
-botonrojo.addEventListener ("click", function(){
-    document.body.style.backgroundColor= "lightcoral";
+botonverde.addEventListener ("click", function(){
+    document.body.style.backgroundColor= "#5D6532";
+})
+
+botonmora.addEventListener ("click", function(){
+    document.body.style.backgroundColor= "#9583b6";
 })
 
 botonazul.addEventListener ("click", function(){
-    document.body.style.backgroundColor= "lightblue";
-})
-
-botonverde.addEventListener ("click", function(){
-    document.body.style.backgroundColor= "Yellow";
+    document.body.style.backgroundColor= "#87CEFA";
 })
